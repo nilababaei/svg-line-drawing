@@ -6,7 +6,7 @@ h1 {
   top: 25%;
   left: 5%;
   z-index: 5;
-  animation: fading 2s linear;
+  animation: fading 3s linear;
 }
 
 #narwhal-eye {
@@ -44,7 +44,7 @@ h1 {
 #rainbow-blue,
 #rainbow-indigo,
 #rainbow-violet {
-  animation: offset 2s linear forwards;
-  stroke-dasharray: 1981.415px;
-  stroke-dashoffset: 1981.415px;
+  animation: offset 3500ms linear forwards;
+  stroke-dasharray: 2000px;
+  stroke-dashoffset: 2000px;
 }
