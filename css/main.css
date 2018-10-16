@@ -25,7 +25,7 @@ h1 {
 
 }
 
-#narwhal {
+#narwhal-body {
   animation: offset 2s linear forwards;
   stroke-dasharray: 1981.415px;
   stroke-dashoffset: 1981.415px;
