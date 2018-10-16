@@ -1,0 +1,50 @@
+h1 {
+  color: #fff;
+  font-family: "Unica One", sans-serif;
+  font-weight: lighter;
+  max-width: 175px;
+  top: 25%;
+  left: 5%;
+  z-index: 5;
+  animation: fading 2s linear;
+}
+
+#narwhal-eye {
+  animation: fading 3s linear forwards;
+}
+
+@keyframes fading {
+
+0% {
+  opacity: 0;
+}
+
+50% {
+  opacity: 1;
+}
+
+}
+
+#narwhal {
+  animation: offset 2s linear forwards;
+  stroke-dasharray: 1981.415px;
+  stroke-dashoffset: 1981.415px;
+}
+
+@keyframes offset {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+#rainbow-red,
+#rainbow-orange,
+#rainbow-yellow,
+#rainbow-green,
+#rainbow-blue,
+#rainbow-indigo,
+#rainbow-violet {
+  animation: offset 2s linear forwards;
+  stroke-dasharray: 1981.415px;
+  stroke-dashoffset: 1981.415px;
+}
